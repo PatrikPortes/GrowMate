@@ -1,0 +1,2394 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cardly</title>
+
+<style>
+
+/* stejné CSS */
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+margin:0;
+background:#f5f5f7;
+color:#1d1d1f;
+text-align:center;
+}
+
+.header{
+padding:90px 20px 60px 20px;
+background:linear-gradient(180deg,#ffffff 0%,#f5f5f7 100%);
+}
+
+.brandRow{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:16px;
+}
+
+.logo{
+width:60px;
+border-radius:18px;
+box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+.brand{
+font-size:46px;
+margin:0;
+}
+
+.author{
+font-size:15px;
+color:#6e6e73;
+margin-top:8px;
+}
+
+.subtitle{
+font-size:20px;
+color:#6e6e73;
+margin-top:10px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+.icon{
+width:160px;
+border-radius:36px;
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1{
+font-size:42px;
+margin-top:20px;
+}
+
+.description{
+font-size:18px;
+color:#6e6e73;
+max-width:600px;
+margin:auto;
+margin-top:14px;
+line-height:1.6;
+}
+
+.screens{
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:30px;
+align-items:flex-start;
+}
+
+.screens img{
+width:220px;
+border-radius:26px;
+box-shadow:0 20px 50px rgba(0,0,0,0.18);
+transition:transform .3s ease;
+}
+
+.screens img:hover{
+transform:translateY(-6px);
+}
+
+
+
+.button{
+display:inline-block;
+margin-top:50px;
+padding:14px 28px;
+background:black;
+color:white;
+border-radius:10px;
+text-decoration:none;
+font-weight:500;
+}
+
+.back{
+display:block;
+margin-top:30px;
+color:#6e6e73;
+text-decoration:none;
+}
+
+.footer{
+padding:40px;
+color:#6e6e73;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="header">
+<div class="brandRow">
+<img src="GrowMate_icon.png" class="logo">
+<h1 class="brand">GrowMate</h1>
+</div>
+<p class="author">by Patrik Porteš</p>
+<p class="subtitle">Jednoduché aplikace pro každodenní život.</p>
+</header>
+
+<div class="container">
+
+<img class="icon" src="Cardly_icon.png">
+
+<h1>Cardly</h1>
+
+<p class="description">
+Cardly vám umožní rychle skenovat a ukládat vizitky pomocí iPhonu.
+Proměňte papírové vizitky na přehledné digitální kontakty během několika sekund.
+</p>
+
+<div class="screens">
+<img src="cardly_screen1.png">
+<img src="cardly_screen2.png">
+<img src="cardly_screen3.png">
+</div>
+
+<a class="button" href="https://apps.apple.com/cz/app/cardly-by-growmate/id6760397219?l=cs" target="_blank">
+Stáhnout na App Store
+</a>
+
+<a class="back" href="index-cz.html">
+← Zpět na aplikace
+</a>
+
+</div>
+
+<footer class="footer">
+<p>Kontakt: info@growmate.cz</p>
+<p>© 2026 GrowMate</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cardly</title>
+
+<style>
+
+/* stejné CSS jako StepMate */
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+margin:0;
+background:#f5f5f7;
+color:#1d1d1f;
+text-align:center;
+}
+
+.header{
+padding:90px 20px 60px 20px;
+background:linear-gradient(180deg,#ffffff 0%,#f5f5f7 100%);
+}
+
+.brandRow{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:16px;
+}
+
+.logo{
+width:60px;
+border-radius:18px;
+box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+.brand{
+font-size:46px;
+margin:0;
+}
+
+.author{
+font-size:15px;
+color:#6e6e73;
+margin-top:8px;
+}
+
+.subtitle{
+font-size:20px;
+color:#6e6e73;
+margin-top:10px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:80px 20px;
+}
+
+.icon{
+width:160px;
+border-radius:36px;
+box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1{
+font-size:42px;
+margin-top:20px;
+}
+
+.description{
+font-size:18px;
+color:#6e6e73;
+max-width:600px;
+margin:auto;
+margin-top:14px;
+line-height:1.6;
+}
+
+.screens{
+margin-top:60px;
+display:flex;
+justify-content:center;
+gap:30px;
+align-items:flex-start;
+}
+
+.screens img{
+width:220px;
+border-radius:26px;
+box-shadow:0 20px 50px rgba(0,0,0,0.18);
+transition:transform .3s ease;
+}
+
+.screens img:hover{
+transform:translateY(-6px);
+}
+
+
+.button{
+display:inline-block;
+margin-top:50px;
+padding:14px 28px;
+background:black;
+color:white;
+border-radius:10px;
+text-decoration:none;
+font-weight:500;
+}
+
+.back{
+display:block;
+margin-top:30px;
+color:#6e6e73;
+text-decoration:none;
+}
+
+.footer{
+padding:40px;
+color:#6e6e73;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="header">
+<div class="brandRow">
+<img src="GrowMate_icon.png" class="logo">
+<h1 class="brand">GrowMate</h1>
+</div>
+<p class="author">by Patrik Porteš</p>
+<p class="subtitle">Simple apps for everyday life.</p>
+</header>
+
+<div class="container">
+
+<img class="icon" src="Cardly_icon.png">
+
+<h1>Cardly</h1>
+
+<p class="description">
+Cardly lets you quickly scan and store business cards using your iPhone.
+Turn paper business cards into organized digital contacts in seconds.
+</p>
+
+<div class="screens">
+<img src="cardly_screen1.png">
+<img src="cardly_screen2.png">
+<img src="cardly_screen3.png">
+</div>
+
+<a class="button" href="https://apps.apple.com/cz/app/cardly-by-growmate/id6760397219?l=cs" target="_blank">
+Download on the App Store
+</a>
+
+<a class="back" href="index.html">
+← Back to apps
+</a>
+
+</div>
+
+<footer class="footer">
+<p>Contact: info@growmate.cz</p>
+<p>© 2026 GrowMate</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cliently</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Jednoduché aplikace pro každý den.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="cliently_icon.png" class="app-icon" alt="Cliently icon">
+      <h2 class="app-name">Cliently</h2>
+
+      <p class="intro">
+        Jednoduchá aplikace pro správu klientů pro freelancery, konzultanty a malé firmy.
+      </p>
+
+      <div class="features">
+        Mějte všechny klienty na jednom místě.<br>
+        Ukládejte si poznámky, kontakty a historii spolupráce.<br>
+        Zůstaňte organizovaní a soustřeďte se na svou práci.
+      </div>
+
+      <a href="#" class="store-button">Brzy na App Store</a><br>
+      <a href="index-cz.html" class="back-link">← Zpět na aplikace</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Kontakt: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cliently</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Simple apps for everyday life.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="cliently_icon.png" class="app-icon" alt="Cliently icon">
+      <h2 class="app-name">Cliently</h2>
+
+      <p class="intro">
+        A simple client management app for freelancers, consultants and small businesses.
+      </p>
+
+      <div class="features">
+        Keep all your clients in one place.<br>
+        Save notes, contacts and work history.<br>
+        Stay organized and focused on your work.
+      </div>
+
+      <a href="#" class="store-button">Coming soon on the App Store</a><br>
+      <a href="index.html" class="back-link">← Back to apps</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Contact: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hourly</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Jednoduché aplikace pro každý den.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="hourly_icon.png" class="app-icon" alt="Hourly icon">
+      <h2 class="app-name">Hourly</h2>
+
+      <p class="intro">
+        Jednoduchá aplikace pro sledování času pro freelancery, konzultanty a moderní firmy.
+      </p>
+
+      <div class="features">
+        Měřte svůj pracovní čas jednoduše a přehledně.<br>
+        Mějte jasný přehled o odpracovaných hodinách.<br>
+        Proměňte zaznamenaný čas snadno ve faktury.
+      </div>
+
+      <a href="#" class="store-button">Brzy na App Store</a><br>
+      <a href="index-cz.html" class="back-link">← Zpět na aplikace</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Kontakt: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hourly</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Simple apps for everyday life.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="hourly_icon.png" class="app-icon" alt="Hourly icon">
+      <h2 class="app-name">Hourly</h2>
+
+      <p class="intro">
+        A simple time tracking app for freelancers, consultants and modern businesses.
+      </p>
+
+      <div class="features">
+        Track your work hours with ease.<br>
+        Keep a clear overview of your time logs.<br>
+        Turn your recorded hours into invoices.
+      </div>
+
+      <a href="#" class="store-button">Coming soon on the App Store</a><br>
+      <a href="index.html" class="back-link">← Back to apps</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Contact: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowMate</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: linear-gradient(180deg, #f5f5f7, #ffffff);
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+    }
+
+    .topbar {
+      position: fixed;
+      top: 16px;
+      right: 24px;
+      display: flex;
+      gap: 6px;
+      font-size: 13px;
+    }
+
+    .lang-btn {
+      background: none;
+      border: none;
+      padding: 4px 6px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .lang-btn.active {
+      font-weight: 600;
+    }
+
+    .lang-btn.inactive {
+      color: #8e8e93;
+    }
+
+    .hero {
+      padding: 56px 24px 40px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .hero .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+    }
+
+    .hero .tagline {
+      color: #6e6e73;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .section-sub {
+      color: #6e6e73;
+      margin-bottom: 40px;
+    }
+
+    .eco-grid {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .eco-card {
+      width: 220px;
+      background: white;
+      border-radius: 24px;
+      padding: 26px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+      transition: 0.25s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .eco-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .icon-wrap {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      margin: auto;
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+
+    .icon-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .eco-card h3 {
+      margin-bottom: 6px;
+    }
+
+    .eco-card p {
+      font-size: 13px;
+      color: #6e6e73;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: #f2f2f5;
+      color: #8e8e93;
+      display: inline-block;
+    }
+
+    .badge.live {
+      background: #e6f0ff;
+      color: #007aff;
+      font-weight: 500;
+    }
+
+    .secondary-section {
+      padding: 50px 20px;
+      opacity: 0.9;
+    }
+
+    .footer {
+      margin-top: 60px;
+      color: #6e6e73;
+      padding-bottom: 40px;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <a class="lang-btn inactive" href="index.html">EN</a>
+    <a class="lang-btn active" href="index-cz.html">CZ</a>
+  </div>
+
+  <div class="hero">
+    <div class="logo-wrap">
+      <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+      <h1>GrowMate</h1>
+    </div>
+
+    <p class="by">by Patrik Porteš</p>
+    <p class="tagline">Jednoduché aplikace pro každý den.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">GrowMate Ecosystem</div>
+    <p class="section-sub">Všechny pracovní nástroje na jednom místě.</p>
+
+    <div class="eco-grid">
+
+      <a href="solvio-cz.html" class="eco-card">
+        <div class="icon-wrap"><img src="solvio_icon.png" alt="Solvio icon"></div>
+        <h3>Solvio</h3>
+        <p>Vytvářejte faktury a spravujte klienty.</p>
+        <span class="badge">Již brzy</span>
+      </a>
+
+      <a href="cliently-cz.html" class="eco-card">
+        <div class="icon-wrap"><img src="cliently_icon.png" alt="Cliently icon"></div>
+        <h3>Cliently</h3>
+        <p>Spravujte klienty a historii zakázek.</p>
+        <span class="badge">Již brzy</span>
+      </a>
+
+      <a href="hourly-cz.html" class="eco-card">
+        <div class="icon-wrap"><img src="hourly_icon.png" alt="Hourly icon"></div>
+        <h3>Hourly</h3>
+        <p>Sledujte čas a vytvářejte faktury.</p>
+        <span class="badge">Již brzy</span>
+      </a>
+
+      <a href="cardly-cz.html" class="eco-card">
+        <div class="icon-wrap"><img src="Cardly_icon.png" alt="Cardly icon"></div>
+        <h3>Cardly</h3>
+        <p>Skenujte a ukládejte vizitky.</p>
+        <span class="badge live">Dostupné na App Store</span>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="secondary-section">
+    <h2>StepMate</h2>
+    <p>Sledujte své kroky.</p>
+
+    <div class="eco-grid" style="margin-top: 24px;">
+      <a href="stepmate-cz.html" class="eco-card">
+        <div class="icon-wrap"><img src="StepMate_icon.png" alt="StepMate icon"></div>
+        <h3>StepMate</h3>
+        <p>Denní sledování aktivity.</p>
+        <span class="badge live">Dostupné na App Store</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GrowMate</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: linear-gradient(180deg, #f5f5f7, #ffffff);
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+    }
+
+    .topbar {
+      position: fixed;
+      top: 16px;
+      right: 24px;
+      display: flex;
+      gap: 6px;
+      font-size: 13px;
+    }
+
+    .lang-btn {
+      background: none;
+      border: none;
+      padding: 4px 6px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .lang-btn.active {
+      font-weight: 600;
+    }
+
+    .lang-btn.inactive {
+      color: #8e8e93;
+    }
+
+    .hero {
+      padding: 56px 24px 40px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .hero .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+    }
+
+    .hero .tagline {
+      color: #6e6e73;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .section-sub {
+      color: #6e6e73;
+      margin-bottom: 40px;
+    }
+
+    .eco-grid {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .eco-card {
+      width: 220px;
+      background: white;
+      border-radius: 24px;
+      padding: 26px 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+      transition: 0.25s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .eco-card:hover {
+      transform: translateY(-6px);
+    }
+
+    .icon-wrap {
+      width: 80px;
+      height: 80px;
+      border-radius: 18px;
+      margin: auto;
+      margin-bottom: 14px;
+      overflow: hidden;
+    }
+
+    .icon-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .eco-card h3 {
+      margin-bottom: 6px;
+    }
+
+    .eco-card p {
+      font-size: 13px;
+      color: #6e6e73;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: #f2f2f5;
+      color: #8e8e93;
+      display: inline-block;
+    }
+
+    .badge.live {
+      background: #e6f0ff;
+      color: #007aff;
+      font-weight: 500;
+    }
+
+    .secondary-section {
+      padding: 50px 20px;
+      opacity: 0.9;
+    }
+
+    .footer {
+      margin-top: 60px;
+      color: #6e6e73;
+      padding-bottom: 40px;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topbar">
+    <a class="lang-btn active" href="index.html">EN</a>
+    <a class="lang-btn inactive" href="index-cz.html">CZ</a>
+  </div>
+
+  <div class="hero">
+    <div class="logo-wrap">
+      <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+      <h1>GrowMate</h1>
+    </div>
+
+    <p class="by">by Patrik Porteš</p>
+    <p class="tagline">Simple apps for everyday life.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">GrowMate Ecosystem</div>
+    <p class="section-sub">All your business tools in one ecosystem.</p>
+
+    <div class="eco-grid">
+
+      <a href="solvio.html" class="eco-card">
+        <div class="icon-wrap"><img src="solvio_icon.png" alt="Solvio icon"></div>
+        <h3>Solvio</h3>
+        <p>Create invoices and manage clients.</p>
+        <span class="badge">Coming soon</span>
+      </a>
+
+      <a href="cliently.html" class="eco-card">
+        <div class="icon-wrap"><img src="cliently_icon.png" alt="Cliently icon"></div>
+        <h3>Cliently</h3>
+        <p>Manage clients and work history.</p>
+        <span class="badge">Coming soon</span>
+      </a>
+
+      <a href="hourly.html" class="eco-card">
+        <div class="icon-wrap"><img src="hourly_icon.png" alt="Hourly icon"></div>
+        <h3>Hourly</h3>
+        <p>Track time and create invoices.</p>
+        <span class="badge">Coming soon</span>
+      </a>
+
+      <a href="cardly.html" class="eco-card">
+        <div class="icon-wrap"><img src="Cardly_icon.png" alt="Cardly icon"></div>
+        <h3>Cardly</h3>
+        <p>Scan and store business cards.</p>
+        <span class="badge live">Available on App Store</span>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="secondary-section">
+    <h2>StepMate</h2>
+    <p>Track your daily steps.</p>
+
+    <div class="eco-grid" style="margin-top: 24px;">
+      <a href="stepmate.html" class="eco-card">
+        <div class="icon-wrap"><img src="StepMate_icon.png" alt="StepMate icon"></div>
+        <h3>StepMate</h3>
+        <p>Daily activity tracking.</p>
+        <span class="badge live">Available on App Store</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solvio</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Jednoduché aplikace pro každý den.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="solvio_icon.png" class="app-icon" alt="Solvio icon">
+      <h2 class="app-name">Solvio</h2>
+
+      <p class="intro">
+        Jednoduchá aplikace pro fakturaci pro freelancery a malé firmy.
+      </p>
+
+      <div class="features">
+        Vytvářejte profesionální faktury během pár sekund.<br>
+        Sledujte platby a historii faktur.<br>
+        Udržte si ve financích pořádek.
+      </div>
+
+      <a href="#" class="store-button">Brzy na App Store</a><br>
+      <a href="index-cz.html" class="back-link">← Zpět na aplikace</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Kontakt: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solvio</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      min-height: 100%;
+    }
+
+    body {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      flex: 1;
+      max-width: 960px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+
+    .hero {
+      margin-bottom: 120px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .logo-img {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      object-fit: cover;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    }
+
+    h1.brand {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    .by {
+      color: #8e8e93;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .tagline-top {
+      color: #6e6e73;
+      font-size: 18px;
+    }
+
+    .app-section {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 36px;
+      object-fit: cover;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.14);
+      margin-bottom: 22px;
+    }
+
+    h2.app-name {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #6e6e73;
+      max-width: 620px;
+      margin: 0 auto 28px;
+    }
+
+    .features {
+      font-size: 17px;
+      line-height: 1.75;
+      color: #3a3a3c;
+      margin-bottom: 34px;
+    }
+
+    .store-button {
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 14px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: #6e6e73;
+      text-decoration: underline;
+      font-size: 15px;
+    }
+
+    .footer {
+      padding: 48px 20px 40px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer a {
+      color: #6e6e73;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        margin-bottom: 90px;
+      }
+
+      h1.brand {
+        font-size: 40px;
+      }
+
+      h2.app-name {
+        font-size: 36px;
+      }
+
+      .app-icon {
+        width: 140px;
+        height: 140px;
+        border-radius: 30px;
+      }
+
+      .intro {
+        font-size: 17px;
+      }
+
+      .features {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <div class="hero">
+      <div class="logo-wrap">
+        <img src="GrowMate_icon.png" class="logo-img" alt="GrowMate logo">
+        <h1 class="brand">GrowMate</h1>
+      </div>
+      <p class="by">by Patrik Porteš</p>
+      <p class="tagline-top">Simple apps for everyday life.</p>
+    </div>
+
+    <section class="app-section">
+      <img src="solvio_icon.png" class="app-icon" alt="Solvio icon">
+      <h2 class="app-name">Solvio</h2>
+
+      <p class="intro">
+        A simple invoicing app for freelancers and small businesses.
+      </p>
+
+      <div class="features">
+        Create professional invoices in seconds.<br>
+        Track payments and invoice history.<br>
+        Keep your business finances organized.
+      </div>
+
+      <a href="#" class="store-button">Coming soon on the App Store</a><br>
+      <a href="index.html" class="back-link">← Back to apps</a>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Contact: <a href="mailto:info@growmate.cz">info@growmate.cz</a><br>
+    © 2026 GrowMate
+  </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StepMate</title>
+
+<style>
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  margin:0;
+  background:#f5f5f7;
+  color:#1d1d1f;
+  text-align:center;
+}
+
+.header{
+  padding:90px 20px 60px;
+  background:linear-gradient(180deg,#ffffff 0%,#f5f5f7 100%);
+}
+
+.brandRow{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+
+.logo{
+  width:60px;
+  border-radius:18px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+.brand{
+  font-size:46px;
+  margin:0;
+}
+
+.author{
+  font-size:15px;
+  color:#6e6e73;
+  margin-top:8px;
+}
+
+.subtitle{
+  font-size:20px;
+  color:#6e6e73;
+  margin-top:10px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+.icon{
+  width:160px;
+  border-radius:36px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1{
+  font-size:42px;
+  margin-top:20px;
+}
+
+.description{
+  font-size:18px;
+  color:#6e6e73;
+  max-width:600px;
+  margin:auto;
+  margin-top:14px;
+  line-height:1.6;
+}
+
+.screens{
+  margin-top:60px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  transform:translateZ(0);
+}
+
+.screens img{
+  width:220px;
+  display:block;
+  background:transparent;
+
+  /* 🔥 správný stín bez rámečku */
+  filter: drop-shadow(0 18px 36px rgba(0,0,0,0.18));
+
+  transition:transform .35s cubic-bezier(.4,0,.2,1);
+
+  will-change:transform;
+  transform:translate3d(0,0,0);
+  backface-visibility:hidden;
+}
+
+.screens img:hover{
+  transform:translateY(-8px) scale(1.025);
+}
+
+.button{
+  display:inline-block;
+  margin-top:50px;
+  padding:14px 28px;
+  background:black;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.back{
+  display:block;
+  margin-top:30px;
+  color:#6e6e73;
+  text-decoration:none;
+}
+
+.footer{
+  padding:40px;
+  color:#6e6e73;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="brandRow">
+    <img src="GrowMate_icon.png" class="logo" alt="GrowMate logo">
+    <h1 class="brand">GrowMate</h1>
+  </div>
+  <p class="author">by Patrik Porteš</p>
+  <p class="subtitle">Jednoduché aplikace pro každý den.</p>
+</header>
+
+<div class="container">
+
+  <img class="icon" src="StepMate_icon.png" alt="StepMate icon">
+
+  <h1>StepMate</h1>
+
+  <p class="description">
+    Sledujte své kroky každý den.<br>
+    Zůstaňte aktivní a plňte své cíle.
+  </p>
+
+  <div class="screens">
+    <img src="stepmate_screen1.png" alt="StepMate screen 1">
+    <img src="stepmate_screen2.png" alt="StepMate screen 2">
+    <img src="stepmate_screen3.png" alt="StepMate screen 3">
+  </div>
+
+  <a class="button" href="https://apps.apple.com/us/app/stepmate/id6760427586" target="_blank">
+    Stáhnout z App Store
+  </a>
+
+  <a class="back" href="index-cz.html">
+    ← Zpět na aplikace
+  </a>
+
+</div>
+
+<footer class="footer">
+  <p>Kontakt: info@growmate.cz</p>
+  <p>© 2026 GrowMate</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StepMate</title>
+
+<style>
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  margin:0;
+  background:#f5f5f7;
+  color:#1d1d1f;
+  text-align:center;
+}
+
+.header{
+  padding:90px 20px 60px;
+  background:linear-gradient(180deg,#ffffff 0%,#f5f5f7 100%);
+}
+
+.brandRow{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:16px;
+}
+
+.logo{
+  width:60px;
+  border-radius:18px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.18);
+}
+
+.brand{
+  font-size:46px;
+  margin:0;
+}
+
+.author{
+  font-size:15px;
+  color:#6e6e73;
+  margin-top:8px;
+}
+
+.subtitle{
+  font-size:20px;
+  color:#6e6e73;
+  margin-top:10px;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+.icon{
+  width:160px;
+  border-radius:36px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.15);
+}
+
+h1{
+  font-size:42px;
+  margin-top:20px;
+}
+
+.description{
+  font-size:18px;
+  color:#6e6e73;
+  max-width:600px;
+  margin:auto;
+  margin-top:14px;
+  line-height:1.6;
+}
+
+.screens{
+  margin-top:60px;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  transform:translateZ(0);
+}
+
+.screens img{
+  width:220px;
+  display:block;
+  background:transparent;
+
+  box-shadow:0 20px 40px rgba(0,0,0,0.15);
+  transition:transform .35s cubic-bezier(.4,0,.2,1);
+
+  will-change:transform;
+  transform:translate3d(0,0,0);
+  backface-visibility:hidden;
+  perspective:1000px;
+}
+
+.screens img:hover{
+  transform:translateY(-8px) scale(1.025);
+}
+
+.button{
+  display:inline-block;
+  margin-top:50px;
+  padding:14px 28px;
+  background:black;
+  color:white;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.back{
+  display:block;
+  margin-top:30px;
+  color:#6e6e73;
+  text-decoration:none;
+}
+
+.footer{
+  padding:40px;
+  color:#6e6e73;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="brandRow">
+    <img src="GrowMate_icon.png" class="logo">
+    <h1 class="brand">GrowMate</h1>
+  </div>
+  <p class="author">by Patrik Porteš</p>
+  <p class="subtitle">Simple apps for everyday life.</p>
+</header>
+
+<div class="container">
+
+  <img class="icon" src="StepMate_icon.png">
+
+  <h1>StepMate</h1>
+
+  <p class="description">
+    Track your daily steps and stay active.<br>
+    Stay motivated and reach your goals every day.
+  </p>
+
+  <div class="screens">
+    <img src="stepmate_screen1.png">
+    <img src="stepmate_screen2.png">
+    <img src="stepmate_screen3.png">
+  </div>
+
+  <a class="button" href="https://apps.apple.com/us/app/stepmate/id6760427586" target="_blank">
+    Download on the App Store
+  </a>
+
+  <a class="back" href="index.html">← Back to apps</a>
+
+</div>
+
+<footer class="footer">
+  <p>Contact: info@growmate.cz</p>
+  <p>© 2026 GrowMate</p>
+</footer>
+
+</body>
+</html>
